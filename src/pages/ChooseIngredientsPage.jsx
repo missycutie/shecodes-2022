@@ -3,9 +3,9 @@ import SearchInput from '../components/global/SearchInput';
 import '../components/choose-ingredient/ChooseIngredients.scss';
 import ChooseIngredientsHeading from '../components/choose-ingredient/ChooseIngredientsHeading';
 import ingredients from '../data/ingredients';
-import IngredientItem from './IngredientItem';
 import PrimaryButton from '../components/global/PrimaryButton';
 import { Link } from 'react-router-dom';
+import IngredientItem from '../components/choose-ingredient/IngredientItem';
 
 const ChooseIngredients = () => {
   return (

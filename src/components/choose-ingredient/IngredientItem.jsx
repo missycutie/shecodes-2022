@@ -1,7 +1,7 @@
 import React from 'react';
-import LikeIcon from '../assets/svg/LikeIcon';
-import UnlikeIcon from '../assets/svg/UnlikeIcon';
-import CategoryItem from '../components/home-page/CategoryItem';
+import LikeIcon from '../../assets/svg/LikeIcon'
+import UnlikeIcon from '../../assets/svg/UnlikeIcon'
+
 
 const IngredientItem = ({data}) => {
   return (
