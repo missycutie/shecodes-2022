@@ -7,7 +7,7 @@ import LanguageSwitch from "./LanguageSwitch";
 const Footer = () => {
   return (
     <footer className="bg-green-100">
-      <div className="container">
+      <div className="container max-w-[1320px] mx-auto">
         <div className="flex justify-between py-5">
           <div className="header-logo">
             <Link to="/">
