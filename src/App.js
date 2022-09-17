@@ -3,9 +3,9 @@ import Layout from './components/global/Layout'
 
 const App = () => {
   return (
-      <Layout>
-        App
-      </Layout>
+      <div>
+        
+      </div>
   )
 }
 
