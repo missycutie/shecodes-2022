@@ -1,10 +1,19 @@
 import React from 'react';
+import Footer from './Footer';
+import Header from './Header';
 
 const Layout = (props) => {
   return (
-    <div className="max-w-[400px] min-h-[700px] m-auto bg-white p-5">
-      {props.children}
+    <>
+    <Header />
+    <div className="main">
+      <div className="container">
+    {props.children}
+
+      </div>
     </div>
+    <Footer />
+    </>
   );
 };
 
