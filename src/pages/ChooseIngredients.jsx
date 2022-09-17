@@ -3,9 +3,7 @@ import Layout from '../components/global/Layout';
 
 const ChooseIngredients = () => {
   return (
-    <Layout>
-      
-    </Layout>
+    <div></div>
   );
 };
 

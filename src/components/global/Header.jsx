@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link, Navigate, NavLink, Routes } from 'react-router-dom';
+import LogoHeader from '../../assets/svg/LogoHeader';
 import './Header.scss';
 
 const Header = () => {
@@ -6,14 +8,19 @@ const Header = () => {
     <header>
       <div className='container'>
         <div className='header-wrapper'>
-          <div className='header-logo'>Logo</div>
+          <div className='header-logo'>
+            <Link to='/'>
+              <LogoHeader />
+              <span className='logo-name'>Onee Care</span>
+            </Link>
+          </div>
           <nav>
-            <a href='/new-feed'>New feed</a>
+            <Link to='/new-feed'>
+              New Feed
+            </Link>
           </nav>
 
-          <div className="header-user">
-            Login
-          </div>
+          <div className='header-user'>Login</div>
         </div>
       </div>
     </header>
