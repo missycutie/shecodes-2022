@@ -1,12 +1,12 @@
 import { Listbox, Transition } from "@headlessui/react";
 import { Fragment } from "react";
-import VietnamIcon from "../../assets/svg/Vietnam.svg";
-import EnglandIcon from "../../assets/svg/England.svg";
+import VietnamIcon from "../../assets/svg/VietnamIcon";
+import EnglandIcon from "../../assets/svg/EnglandIcon";
 import { ChevronUpDownIcon } from "@heroicons/react/20/solid";
 
 const LanguageSwitch = () => {
   return (
-    <Listbox value="vi" onChange={() => console.log("Change languager")}>
+    <Listbox value="vi">
       <Listbox.Button className="relative w-full rounded-md border border-neutral-20 py-2 pl-5 pr-12 text-body16 focus:border-primary-50 focus:outline-none focus:ring-primary-50">
         <div className="truncate">
           <div className="flex flex-row items-center space-x-4">
@@ -31,7 +31,7 @@ const LanguageSwitch = () => {
         leave="transition ease-in duration-150"
         leaveFrom="opacity-100 translate-y-0"
         leaveTo="opacity-0 translate-y-1">
-        <Listbox.Options className="space-y-2 rounded bg-white p-2 shadow-lg focus:outline-none">
+        <Listbox.Options className="space-y-2 rounded bg-white p-2 shadow-lg focus:outline-none flex flex-col">
           <Listbox.Option
             key="en"
             value="en"
