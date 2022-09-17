@@ -1,12 +1,12 @@
 import React from 'react';
-import IngredientIcon from '../assets/svg/IngredientIcon';
 import './ChooseIngredientsHeading.scss';
+import IngredientIcon from '../../assets/svg/IngredientIcon'
 
-const ChooseIngredientsHeading = () => {
+const ChooseIngredientsHeading = ({heading}) => {
   return (
     <div className='choose-ingredients-heading'>
       <IngredientIcon />
-      <h3>NGUYÊN LIỆU</h3>
+      <h3>{heading}</h3>
     </div>
   );
 };
