@@ -4,12 +4,11 @@ import '../components/choose-ingredient/ChooseIngredients.scss';
 import ChooseIngredientsHeading from '../components/choose-ingredient/ChooseIngredientsHeading';
 import ingredients from '../data/ingredients';
 import PrimaryButton from '../components/global/PrimaryButton';
-import { Link } from 'react-router-dom';
 import IngredientItem from '../components/choose-ingredient/IngredientItem';
 
 const ChooseIngredients = () => {
   return (
-    <div className='choose-ingredient-page'>
+    <div className='choose-ingredient-page my-5'>
       <SearchInput />
       <ChooseIngredientsHeading heading='NGUYÊN LIỆU' />
       <p className='mt-[10px]'>Hiển thị 4 kết quả </p>
