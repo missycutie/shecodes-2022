@@ -4,9 +4,9 @@ import IngredientIcon from '../../assets/svg/IngredientIcon'
 
 const ChooseIngredientsHeading = ({heading}) => {
   return (
-    <div className='choose-ingredients-heading'>
+    <div className='choose-ingredients-heading flex items-center mt-10'>
       <IngredientIcon />
-      <h3>{heading}</h3>
+      <h3 className="ml-5">{heading}</h3>
     </div>
   );
 };
