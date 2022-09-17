@@ -11,7 +11,7 @@ const HomePage = () => {
         <div className="home-page-inner">
           <img src={HomeIllustrate} alt="" className="home-img" />
           <div className="home-col-right">
-            <ChooseCategory />
+          <ChooseCategory />
             <div className="home-cta-register">
               <p>
               Bạn chưa có tài khoản?

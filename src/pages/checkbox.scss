@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul {
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+
+li {
+    list-style-type: none;
+    list-style-position: outside;
+    padding: 10px;
+    float: left;
+}
+
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999%;
+}
+
+input[type="checkbox"]+label {
+    display: inline-block;
+    cursor: pointer;
+    @apply text-black bg-white p-3 rounded-full;
+}
+
+input[type="checkbox"]:checked+label {
+    @apply bg-green-300 text-white border border-white;
+}
