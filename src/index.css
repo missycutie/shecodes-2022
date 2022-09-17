@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding:0;
@@ -29,6 +33,12 @@ body{
 
 h3 {
     font-size: 32px;
+    font-weight: 600;
+    color: #1C6758;
+}
+
+h4 {
+    font-size: 26px;
     font-weight: 600;
     color: #1C6758;
 }

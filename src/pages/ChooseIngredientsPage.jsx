@@ -1,10 +1,17 @@
 import React from 'react';
-import Layout from '../components/global/Layout';
+import SearchInput from '../components/global/SearchInput';
+import '../components/choose-ingredient/ChooseIngredients.scss';
 
 const ChooseIngredients = () => {
   return (
-    <div>
-      
+    <div className='choose-ingredient-page'>
+
+      <div className="choose-ingredient-hate ">
+        <h4>Chọn nguyên liệu bạn không thích :</h4>
+
+        <SearchInput />
+      </div>
+
     </div>
   );
 };
