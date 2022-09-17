@@ -7,7 +7,7 @@ const ChooseCategory = () => {
   return (
     <div className="choose-category">
       <h3>
-        Choose Category
+      Vì ẩm thực Việt
       </h3>
       <p>
         Vui lòng lựa chọn:

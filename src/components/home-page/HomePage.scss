@@ -1,8 +1,25 @@
 .home-page-inner {
   display: flex;
   justify-content: space-between;
+  max-width: 700px;
+  margin: 50px auto;
 }
 
 .home-img {
   max-width: 250px;
+}
+
+.home-col-right {
+  width: 300px;
+  text-align: center;
+
+}
+
+.home-cta-register {
+  margin-top: 40px;
+
+  a {
+    color: #1C6758;
+    font-weight: bold;
+  }
 }
