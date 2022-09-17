@@ -1,6 +1,6 @@
 import React from "react";
 import category from "../../data/category";
-import CategoryItem from "./CategoryItem";
+import Button from "./Button";
 import "./ChooseCategory.scss";
 
 const ChooseCategory = () => {
@@ -11,7 +11,12 @@ const ChooseCategory = () => {
 
       <div className="mt-8 space-y-3">
         {category.map((item) => (
-          <CategoryItem key={`ct-${item.id}`} data={item} />
+          <Button
+            key={`ct-${item.id}`}
+            data={item.value}
+            className="rounded-[70px]"
+            href="/choose-ingredient"
+          />
         ))}
       </div>
     </div>

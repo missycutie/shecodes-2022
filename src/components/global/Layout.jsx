@@ -1,14 +1,14 @@
-import React from 'react';
-import Footer from './Footer';
-import Header from './Header';
+import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
 
 const Layout = (props) => {
   return (
-    <div className='root-wrapper'>
+    <div className="root-wrapper">
       <Header />
-        <div className='main'>
-          <div className='container'>{props.children}</div>
-        </div>
+      <div className="flex-1 px-5 mt-[85px]">
+        <div className="container">{props.children}</div>
+      </div>
       <Footer />
     </div>
   );
