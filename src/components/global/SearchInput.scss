@@ -1,6 +1,6 @@
 .search-wrap {
-  flex: 1;
-  margin-left: 100px;
+  width: 500px;
+  margin: 0 auto;
 }
 
 .search {
@@ -11,11 +11,11 @@
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #1C6758;
+  border: 2px solid #1C6758;
   border-right: none;
-  padding: 5px 15px;
+  padding: 5px 20px;
   height: 20px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 20px 0 0 20px;
   outline: none;
   color: #9DBFAF;
   height: 50px;
@@ -28,20 +28,16 @@
 .searchButton {
   width: 50px;
   height: 50px;
-  border: 1px solid #1C6758;
+  border: 1px solid #558D81;
   background: #1C6758;
   text-align: center;
   color: #fff;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 20px 20px 0;
   cursor: pointer;
   font-size: 20px;
-}
 
-/*Resize the wrap to see the search bar change!*/
-// .wrap{
-//   width: 30%;
-//   position: absolute;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-// }
+  svg {
+    fill: white;
+    margin: 0 auto;
+  }
+}
