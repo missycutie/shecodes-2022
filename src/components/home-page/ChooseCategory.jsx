@@ -14,6 +14,8 @@ const ChooseCategory = () => {
           <CategoryItem key={`ct-${item.id}`} data={item} />
         ))}
       </div>
+
+
     </div>
   );
 };
