@@ -1,5 +1,4 @@
 import React from 'react';
-import './ChooseIngredientsHeading.scss';
 import IngredientIcon from '../../assets/svg/IngredientIcon'
 
 const ChooseIngredientsHeading = ({heading}) => {
