@@ -1,4 +1,29 @@
 footer {
-  padding: 20px 0;
-  background: lightgreen;
+	padding: 10px 0;
+	border-top: 1px solid black;
+}
+
+
+
+.footer-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.footer-logo {
+	flex: 1;
+
+	svg {
+		width: 70px;
+		height: auto;
+		display: inline-block;
+	}
+
+}
+
+
+.logo-name {
+	font-weight: 600;
+	color: #1c6758;
+
 }
