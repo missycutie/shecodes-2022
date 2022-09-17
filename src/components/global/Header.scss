@@ -1,12 +1,3 @@
-header {
-  padding: 10px 0;
-  border-bottom: 1px solid black;
-}
-
-.header-wrapper {
-  display: flex;
-  align-items: center;
-}
 
 .header-logo {
   flex: 1;
@@ -16,15 +7,5 @@ header {
     height: auto;
     display: inline-block;
   }
-
-}
-
-.header-user {
-  margin-left: 50px;
-}
-
-.logo-name {
-  font-weight: 600;
-  color: darkgreen;
 
 }
