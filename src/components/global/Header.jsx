@@ -26,8 +26,13 @@ const Header = () => {
           </nav>
 
           <Button
-            data="Login"
-            className="rounded ml-8"
+            data="Đăng nhập"
+            className="rounded ml-8 min-w-[120px]"
+            href="/choose-ingredient"
+          />
+          <Button
+            data="Đăng kí"
+            className="rounded ml-4 min-w-[120px]"
             href="/choose-ingredient"
           />
         </div>
