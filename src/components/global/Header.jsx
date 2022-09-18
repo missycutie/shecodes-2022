@@ -7,7 +7,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-white  shadow-lg py-3 h-[85px]">
-      <div className="container">
+      <div className="container max-w-[1320px] mx-auto">
         <div className="flex justify-between">
           <div className="header-logo">
             <Link to="/">
@@ -24,15 +24,14 @@ const Header = () => {
               </p>
             </Link>
           </nav>
-
           <Button
-            data="Đăng nhập"
-            className="rounded ml-8 min-w-[120px]"
+            data="Đăng kí"
+            className="rounded ml-4 min-w-[120px] bg-neutral-500"
             href="/choose-ingredient"
           />
           <Button
-            data="Đăng kí"
-            className="rounded ml-4 min-w-[120px]"
+            data="Đăng nhập"
+            className="rounded ml-8 min-w-[120px]"
             href="/choose-ingredient"
           />
         </div>

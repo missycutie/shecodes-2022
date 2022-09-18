@@ -1,8 +1,8 @@
 import { Listbox, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import VietnamIcon from "../../assets/svg/VietnamIcon";
-import EnglandIcon from "../../assets/svg/EnglandIcon";
 import { ChevronUpDownIcon } from "@heroicons/react/20/solid";
+import EnglandIcon from "../../assets/img/EnglandIcon.png";
 
 const LanguageSwitch = () => {
   return (
@@ -41,8 +41,8 @@ const LanguageSwitch = () => {
               }`
             }>
             <div className="flex flex-row items-center space-x-4">
-              <div className="relative h-6 w-6">
-                <EnglandIcon className="pr-4" />
+              <div className="h-6 w-10">
+                <img src={EnglandIcon} alt="" className="pr-4 w-full h-full" />
               </div>
               <p className="min-w-[75px]">English</p>
             </div>
