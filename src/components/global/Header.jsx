@@ -1,13 +1,15 @@
 import React from "react";
 import { Link, Navigate, NavLink, Routes } from "react-router-dom";
+import CoinIcon from "../../assets/svg/CoinIcon";
 import LogoHeader from "../../assets/svg/LogoHeader";
+import UserIcon from "../../assets/svg/UserIcon";
 import Button from "../home-page/Button";
 import "./Header.scss";
 
 const Header = () => {
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-white  shadow-lg py-3 h-[85px]">
-      <div className="container max-w-[1320px] mx-auto">
+      <div className="container ">
         <div className="flex justify-between">
           <div className="header-logo">
             <Link to="/">
@@ -19,21 +21,24 @@ const Header = () => {
           </div>
           <nav className="flex items-center">
             <Link to="/new-feed">
+              <p className="text-base font-semibold text-black focus-visible:outline-none active:text-green-700 lg:hover:text-green-500 mr-5">
+                Cộng đồng
+              </p>
+            </Link>
+            <Link to="/new-feed">
               <p className="text-base font-semibold text-black focus-visible:outline-none active:text-green-700 lg:hover:text-green-500">
-                New Feed
+                Hướng dẫn sử dụng
               </p>
             </Link>
           </nav>
-          <Button
-            data="Đăng kí"
-            className="rounded ml-4 min-w-[120px] bg-neutral-500"
-            href="/choose-ingredient"
-          />
-          <Button
-            data="Đăng nhập"
-            className="rounded ml-8 min-w-[120px]"
-            href="/choose-ingredient"
-          />
+          <div className="flex items-center ml-12 cursor-pointer">
+            <CoinIcon />
+            <span className="ml-2">100</span>
+          </div>
+          <div className="flex items-center ml-5 cursor-pointer">
+            <UserIcon />
+            <span className="ml-2 font-bold">Tina Châu</span>
+          </div>
         </div>
       </div>
     </header>

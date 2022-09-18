@@ -1,14 +1,13 @@
 import React from "react";
 import { Link, Navigate, NavLink, Routes } from "react-router-dom";
-import "./Footer.scss";
 import LogoHeader from "../../assets/svg/LogoHeader";
 import LanguageSwitch from "./LanguageSwitch";
 
 const Footer = () => {
   return (
     <footer className="bg-green-100">
-      <div className="container max-w-[1320px] mx-auto">
-        <div className="flex justify-between py-5">
+      <div className="container">
+        <div className="flex items-center justify-between pt-[10px]">
           <div className="header-logo">
             <Link to="/">
               <LogoHeader />
@@ -17,20 +16,18 @@ const Footer = () => {
               </span>
             </Link>
           </div>
-          <div className="self-start flex-none">
+          <div className="flex-none">
             <LanguageSwitch />
           </div>
         </div>
-        <div className="flex flex-col">
-          <hr className="my-4 h-2 text-neutral-15" />
-          <div className="space-y-1">
+        <div className="flex flex-col mb-3">
+          <hr className="my-2 h-2 text-neutral-15" />
             <p className="text-sm font-semibold text-neutral-700 text-center">
               @Copyright Onee-chan 2022
             </p>
             <p className="text-sm font-semibold text-neutral-700 text-center">
               Shecodes 2022
             </p>
-          </div>
         </div>
       </div>
     </footer>
