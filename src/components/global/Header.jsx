@@ -9,7 +9,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-white  shadow-lg py-3 h-[85px]">
-      <div className="container ">
+      <div className="container max-w-8xl mx-auto">
         <div className="flex justify-between">
           <div className="header-logo">
             <Link to="/">
