@@ -12,7 +12,7 @@ const HomePage = () => {
           <img src={HomeIllustrate} alt="" className="home-img" />
           <div className="home-col-right">
           <ChooseCategory />
-            <div className="home-cta-register">
+            {/* <div className="home-cta-register">
               <p>
               Bạn chưa có tài khoản?
               </p>
@@ -21,7 +21,7 @@ const HomePage = () => {
                   Đăng ký ngay
                 </Link>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
