@@ -18,7 +18,7 @@ const ChooseIngredients = () => {
   return (
     <div className="choose-ingredient-page my-10">
       <SearchInput />
-      <ChooseIngredientsHeading heading="NGUYÊN LIỆU" />
+      <ChooseIngredientsHeading heading="TUỲ CHỌN NGUYÊN LIỆU CHO MÓN ĂN" />
       <p className="mt-[10px]">Hiển thị 4 kết quả </p>
 
       <ul className="flex flex-wrap -mx-5 mt-10">
@@ -150,7 +150,7 @@ const ChooseIngredients = () => {
                   <div className="mt-5 sm:mt-6 sm:grid sm:grid-flow-row-dense sm:grid-cols-2 sm:gap-3">
                     <button
                       type="button"
-                      className="inline-flex w-full justify-center rounded-md border border-transparent bg-[#1C6758] px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-[#1C6758]focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2 sm:col-start-2 sm:text-sm">
+                      className="inline-flex w-full justify-center rounded-md border border-transparent bg-[#1C6758] px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-[#1C6758]focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2 sm:col-start-2 sm:text-sm" onClick={(e) => e.preventDefault()}>
                       <Link to="/dishes-page">Đi tiếp</Link>
                     </button>
                     <button

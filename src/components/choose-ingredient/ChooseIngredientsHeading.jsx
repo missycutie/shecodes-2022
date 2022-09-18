@@ -1,11 +1,11 @@
 import React from 'react';
 import IngredientIcon from '../../assets/svg/IngredientIcon'
 
-const ChooseIngredientsHeading = ({heading}) => {
+const ChooseIngredientsHeading = ({heading, style}) => {
   return (
-    <div className='choose-ingredients-heading flex items-center mt-10'>
+    <div className='choose-ingredients-heading flex items-center mt-10 font-bold'>
       <IngredientIcon />
-      <h3 className="ml-5">{heading}</h3>
+      <h3 className="h4 ml-5">{heading}</h3>
     </div>
   );
 };
