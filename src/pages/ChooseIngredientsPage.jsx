@@ -151,7 +151,7 @@ const ChooseIngredients = () => {
                     <button
                       type="button"
                       className="inline-flex w-full justify-center rounded-md border border-transparent bg-[#1C6758] px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-[#1C6758]focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2 sm:col-start-2 sm:text-sm" onClick={(e) => e.preventDefault()}>
-                      <Link to="/dishes-page">Đi tiếp</Link>
+                      <Link to="/dishes-page">Xem thực đơn</Link>
                     </button>
                     <button
                       type="button"
