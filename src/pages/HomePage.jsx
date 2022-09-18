@@ -1,5 +1,4 @@
 import React from 'react';
-import Layout from '../components/global/Layout';
 import ChooseCategory from '../components/home-page/ChooseCategory';
 import HomeIllustrate from '../assets/img/home-illustrate.png';
 import '../components/home-page/HomePage.scss';
