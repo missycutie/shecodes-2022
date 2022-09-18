@@ -337,7 +337,7 @@ w-full"
       </div>
 
       <div className="ml-auto w-fit mt-10">
-        <PrimaryButton onClick={() => setModalIsOpen(true)}>Tiếp theo</PrimaryButton>
+        <PrimaryButton onClick={() => setModalIsOpen(true)}>Xem nguyên liệu</PrimaryButton>
       </div>
 
       <Transition.Root show={modalIsOpen} as={Fragment}>
