@@ -32,13 +32,13 @@ body{
     flex-direction: column;
 }
 
-h3 {
+.h3 {
     font-size: 32px;
     font-weight: 600;
     color: #1C6758;
 }
 
-h4 {
+.h4 {
     font-size: 26px;
     font-weight: 600;
     color: #1C6758;
