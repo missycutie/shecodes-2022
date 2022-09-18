@@ -16,7 +16,7 @@ const ChooseIngredients = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="choose-ingredient-page my-5">
+    <div className="choose-ingredient-page my-10">
       <SearchInput />
       <ChooseIngredientsHeading heading="NGUYÊN LIỆU" />
       <p className="mt-[10px]">Hiển thị 4 kết quả </p>
