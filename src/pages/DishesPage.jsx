@@ -302,8 +302,8 @@ export default function DishesPage() {
     <div className="my-10">
       <div className="pl-4 py-6 flex items-center flex-row justify-start gap-5">
         <CIcon icon={cilFastfood} size="sm" className="w-[40px] dishes-icon" />
-        <h1 className="w-full text-[#1c6758] font-bold">
-          Đây là những món ăn chúng mình gợi ý cho bạn nè ^^
+        <h1 className="h4">
+          Gợi ý món ăn cho bạn
         </h1>
       </div>
       <div
